@@ -11,12 +11,12 @@ Inherits="_Default" %>
 John's Mortgage Calculator
 <br /><br />
 Loan Amount:<asp:TextBox ID="tbLoanAmt" runat="server" ></asp:TextBox>
-<br /><br />
+    **Please enter a loan amount<br /><br />
 Annual Interest %: <asp:TextBox ID="tbAnnualInterest" runat="server"
 ></asp:TextBox>
-<br /><br />
+    **Please enter a interest amount<br /><br />
 Loan Term (Yrs): <asp:TextBox ID="tbLoanTerm" runat="server" ></asp:TextBox>
-<br /><br />
+    **Please enter a term amount<br /><br />
 <asp:Button ID="btnCalcPmt" runat="server" Text="Calculate" />
 <br /><br />
 Monthly Payment: &nbsp; <asp:Label ID="lblMonthlyPmt" runat="server"></asp:Label>
